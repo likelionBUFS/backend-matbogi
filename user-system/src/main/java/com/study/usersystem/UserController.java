@@ -23,7 +23,7 @@ public class UserController {
     }
 
     /**
-     * 사용자 단건 조회
+     * 사용자 단건 조회 (귀여운 나녕이)
      */
     @GetMapping("/users")
     public UserInfo getUser(@RequestParam("personalId") String personalId) {
